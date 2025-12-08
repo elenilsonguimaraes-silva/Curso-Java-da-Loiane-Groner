@@ -1,4 +1,4 @@
-package com.elenilson.cursojava.aula52.labs.Loiane;
+package com.elenilson.cursojava.aula52.labsLoiane;
 
 import java.util.Scanner;
 
