@@ -47,7 +47,7 @@ public class Teste {
 			System.out.println("Sexta-feira");
 			break;
 		case 7:
-			System.out.println("Sábado");;
+			System.out.println("Sábado");
 			break;
 		
 		}
