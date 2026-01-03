@@ -15,7 +15,7 @@ public class TesteEnum {
 		}
 		System.out.println();
 		for(DiaSemana dia : DiaSemana.values()) {
-			System.out.println(dia);
+			System.out.print(dia + " ");
 		}
 
 	}
