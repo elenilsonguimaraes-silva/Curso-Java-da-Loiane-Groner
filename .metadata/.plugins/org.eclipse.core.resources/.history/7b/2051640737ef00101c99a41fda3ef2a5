@@ -1,0 +1,19 @@
+package com.elenilson.cursojavaintermediario.aula74.labs;
+
+public class ThreadSemaforo implements Runnable{
+	
+	private CorSemafaro cor;
+	
+	public ThreadSemaforo() {
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

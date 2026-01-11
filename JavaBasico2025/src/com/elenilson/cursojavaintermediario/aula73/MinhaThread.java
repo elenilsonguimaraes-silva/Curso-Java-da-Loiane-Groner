@@ -12,7 +12,7 @@ public class MinhaThread implements Runnable{
 		this.estaSuspensa = false;
 		new Thread(this, nome).start();
 	}
-
+ 
 	@Override
 	public void run() {
 
