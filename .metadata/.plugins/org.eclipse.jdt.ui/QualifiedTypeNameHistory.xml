@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDML"/>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDDL"/>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.BancoDados"/>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46labs.Triangulo"/>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46labs.Piramide"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46labs.Figura3D"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46labs.FiguraD2"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46labs.DimensaoVolumetrica"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.nio.file.attribute.DosFileAttributes"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>
