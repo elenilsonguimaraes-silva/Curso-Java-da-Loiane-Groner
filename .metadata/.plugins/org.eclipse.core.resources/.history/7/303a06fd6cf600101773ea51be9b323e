@@ -1,0 +1,31 @@
+package com.elenilson.cursojavaintermediario.aula95;
+
+public class um {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		meu-texto_pt_br.properties
+		
+		#mensagens
+		hello= Olá Mundo
+
+		#valores
+		world= Mundo 2
+		
+		
+		
+		
+		meu-texot.properties
+		
+		#mensagens
+		hello= Hello world
+
+		#valores
+		world= World 2
+		
+
+	}
+
+}
