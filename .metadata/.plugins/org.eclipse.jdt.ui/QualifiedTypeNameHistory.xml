@@ -48,7 +48,6 @@
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula56labs.Calculadora.Operacao"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula60.EscopoVariaveis"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula64.Externa2"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula65.InformacaoAula"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula71.MinhaThreadSoma"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>
