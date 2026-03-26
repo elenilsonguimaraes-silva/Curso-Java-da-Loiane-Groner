@@ -82,9 +82,9 @@
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="709"/>
 		<item key="DIALOG_Y_ORIGIN" value="72"/>
-		<item key="DIALOG_WIDTH" value="519"/>
-		<item key="DIALOG_HEIGHT" value="678"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="611"/>
+		<item key="DIALOG_HEIGHT" value="743"/>
+		<item key="DIALOG_FONT_NAME" value="1|Inter|10.0|0|GTK|1|"/>
 	</section>
 	<section name="AddUnimplementedConstructorsDialog">
 		<item key="OmitCallToSuper" value="false"/>
@@ -118,9 +118,9 @@
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="704"/>
 		<item key="DIALOG_Y_ORIGIN" value="60"/>
-		<item key="DIALOG_WIDTH" value="528"/>
-		<item key="DIALOG_HEIGHT" value="696"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="623"/>
+		<item key="DIALOG_HEIGHT" value="761"/>
+		<item key="DIALOG_FONT_NAME" value="1|Inter|10.0|0|GTK|1|"/>
 	</section>
 	<section name="JavaSearchPage">
 		<item key="CASE_SENSITIVE" value="false"/>

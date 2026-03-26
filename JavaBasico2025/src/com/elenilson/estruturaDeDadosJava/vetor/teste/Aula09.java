@@ -1,0 +1,24 @@
+package com.elenilson.estruturaDeDadosJava.vetor.teste;
+
+import com.elenilson.estruturasDeDadosJava.vetor.Vetor;
+
+public class Aula09 {
+
+	public static void main(String[] args) {
+		Vetor vetor = new Vetor(10);
+
+		vetor.adiciona("B");
+		vetor.adiciona("G");
+		vetor.adiciona("D");
+		vetor.adiciona("E");
+		vetor.adiciona("F");
+
+		System.out.println(vetor);
+
+		vetor.remove(4);
+
+		System.out.println(vetor);		
+
+	}
+
+}

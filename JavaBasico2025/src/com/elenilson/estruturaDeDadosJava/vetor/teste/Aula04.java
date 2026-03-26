@@ -1,6 +1,6 @@
 package com.elenilson.estruturaDeDadosJava.vetor.teste;
 
-import com.elenilson.estruturasDeDadosJava.vetor.Vetor.Vetor;
+import com.elenilson.estruturasDeDadosJava.vetor.Vetor;
 
 public class Aula04 {
 

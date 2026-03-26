@@ -1,6 +1,6 @@
 package com.elenilson.estruturaDeDadosJava.vetor.teste;
 
-import com.elenilson.estruturasDeDadosJava.vetor.Vetor.Vetor;
+import com.elenilson.estruturasDeDadosJava.vetor.Vetor;
 
 public class Aula06 {
 
@@ -10,7 +10,7 @@ public class Aula06 {
 		vetor.adiciona("elemento 2");
 		vetor.adiciona("elemento 3");
 
-		System.out.println(vetor.busca("Elemento 2"));
+		System.out.println(vetor.busca("elemento 1"));
 
 
 	}
