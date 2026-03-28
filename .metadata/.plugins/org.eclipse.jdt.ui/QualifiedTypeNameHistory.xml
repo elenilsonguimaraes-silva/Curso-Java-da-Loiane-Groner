@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula44.AnimalDomesticado"/>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula45.Professor"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDCL"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDML"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDDL"/>
@@ -20,7 +18,6 @@
     <fullyQualifiedTypeName name="java.rmi.server.ExportException"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula52.labs.Agenda"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula36labs.Contato"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Error"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula52.labs.Loiane.AgendaCheiaException"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula52.labs.Loiane.ContatoNaoExisteException"/>
@@ -50,14 +47,17 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula71.MinhaThreadSoma"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.vetor.Vetor"/>
-    <fullyQualifiedTypeName name="com.elenilson.estruturaDeDadosJava.vetor.teste.Contato"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.vetor.VetorObjetos"/>
-    <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.vetor.Lista"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.vetor.Lista"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.elenilson.estruturaDeDadosJava.vetor.teste.Contato"/>
 </qualifiedTypeNameHistroy>

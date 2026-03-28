@@ -1,0 +1,32 @@
+package com.elenilson.estruturaDeDadosJava.vetor.labs;
+
+import java.util.ArrayList;
+
+import com.elenilson.estruturasDeDadosJava.vetor.Lista;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		Lista<String> lista = new Lista<String>(2);
+
+		lista.adiciona("A");
+
+		lista.adiciona("B");
+		
+		lista.adiciona("C");
+		
+		lista.adiciona("D");
+		
+		lista.adiciona("E");
+
+		System.out.println(lista);
+		
+		
+		System.out.println(lista.obtem(0));
+		
+
+
+	}
+
+}
