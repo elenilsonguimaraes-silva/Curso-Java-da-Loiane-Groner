@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDCL"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDML"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.SqlDDL"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46.BancoDados"/>
@@ -55,9 +54,10 @@
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.vetor.Lista"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturaDeDadosJava.vetor.teste.Contato"/>
+    <fullyQualifiedTypeName name="com.elenilson.estruturaDeDadosJava.vetor.labs.Exercicio06"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

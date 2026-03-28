@@ -67,10 +67,10 @@ public class Exercicio06 {
 
 
 	} 
-	protected static void imprimeTamanhoVetor(Lista<Contato> lista) {
+	private static void imprimeTamanhoVetor(Lista<Contato> lista) {
 		System.out.println("O tamanho do vetor é de: " + lista.tamanho());
 	}
-	protected static void limparVetor(Lista<Contato> lista) {
+	private static void limparVetor(Lista<Contato> lista) {
 		lista.limpar();
 		System.out.println("Todos os contatos do vetor foram excluídos");
 	}

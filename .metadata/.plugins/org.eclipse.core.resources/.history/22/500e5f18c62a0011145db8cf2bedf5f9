@@ -67,18 +67,18 @@ public class Exercicio06 {
 
 
 	} 
-	protected static void imprimeTamanhoVetor(Lista<Contato> lista) {
+	private static void imprimeTamanhoVetor(Lista<Contato> lista) {
 		System.out.println("O tamanho do vetor é de: " + lista.tamanho());
 	}
-	protected static void limparVetor(Lista<Contato> lista) {
+	private static void limparVetor(Lista<Contato> lista) {
 		lista.limpar();
 		System.out.println("Todos os contatos do vetor foram excluídos");
 	}
-	protected static void imprimirVetor(Lista<Contato> lista) {
+	private static void imprimirVetor(Lista<Contato> lista) {
 		System.out.println(lista);
 	}
 	
-	protected static void adicionarContatoFinal(Scanner scan, Lista<Contato> lista) {
+	private static void adicionarContatoFinal(Scanner scan, Lista<Contato> lista) {
 		System.out.println("Criando um contato, entre com as informações:");
 		String nome = lerInformacao("Entre com o nome", scan);
 		String telefone = lerInformacao("Entre com o telefone", scan);
@@ -93,7 +93,7 @@ public class Exercicio06 {
 
 
 	}
-	protected static void adicionarContatoPosicao(Scanner scan, Lista<Contato> lista) {
+	private static void adicionarContatoPosicao(Scanner scan, Lista<Contato> lista) {
 		System.out.println("Criando um contato, entre com as informações:");
 		String nome = lerInformacao("Entre com o nome", scan);
 		String telefone = lerInformacao("Entre com o telefone", scan);
@@ -112,7 +112,7 @@ public class Exercicio06 {
 		System.out.println(contato);		
 	}
 	
-	protected static void excluirPorPosicao(Scanner scan, Lista<Contato> lista) {
+	private static void excluirPorPosicao(Scanner scan, Lista<Contato> lista) {
 		int pos = lerInformacaoInt("Entre com a posição a ser removida", scan);
 
 		try {			
@@ -125,7 +125,7 @@ public class Exercicio06 {
 		}
 	}
 	
-	protected static void excluirContato(Scanner scan, Lista<Contato> lista) {
+	private static void excluirContato(Scanner scan, Lista<Contato> lista) {
 		int pos = lerInformacaoInt("Entre com a posição a ser removida", scan);
 
 		try {
@@ -141,7 +141,7 @@ public class Exercicio06 {
 			System.out.println("Posição inválida, busca cancelada!");
 		}
 	}
-	protected static void pesquisarContatoExiste(Scanner scan, Lista<Contato> lista) {
+	private static void pesquisarContatoExiste(Scanner scan, Lista<Contato> lista) {
 		int pos = lerInformacaoInt("Entre com a posição da busca  do contato a ser pesquisada"
 				+ "", scan);
 
@@ -164,7 +164,7 @@ public class Exercicio06 {
 		}
 	}
 	
-	protected static void pesquisarUltimoIndice(Scanner scan, Lista<Contato> lista) {
+	private static void pesquisarUltimoIndice(Scanner scan, Lista<Contato> lista) {
 		int pos = lerInformacaoInt("Entre com a posição da busca  do contato a ser pesquisada"
 				+ "", scan);
 
@@ -181,7 +181,7 @@ public class Exercicio06 {
 		}
 	}
 
-	protected static void obtemContato(Scanner scan, Lista<Contato> lista) {
+	private static void obtemContato(Scanner scan, Lista<Contato> lista) {
 		int pos = lerInformacaoInt("Entre com a posição da busca  do contato a ser pesquisada"
 				+ "", scan);
 

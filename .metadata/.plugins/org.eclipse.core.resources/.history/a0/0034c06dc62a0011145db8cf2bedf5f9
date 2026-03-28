@@ -5,8 +5,7 @@ import java.util.Scanner;
 import com.elenilson.estruturaDeDadosJava.vetor.teste.Contato;
 import com.elenilson.estruturasDeDadosJava.vetor.Lista;
 
-public class Exercicio06 {
-
+public class Exercicio07 {
 	public static void main(String[] args) {
 		// criação das variáveis
 		Scanner scan = new Scanner(System.in);
@@ -279,7 +278,7 @@ public class Exercicio06 {
 
 		return opcao;
 	}
-	protected static void criarContatosDinamicamente(int quantidade, Lista<Contato> lista) {
+	private static void criarContatosDinamicamente(int quantidade, Lista<Contato> lista) {
 		Contato contato = new Contato();
 		for(int i=1; i < quantidade; i++) {
 			contato = new Contato("Contato"+ i , i+"1234-4567", "contato"+i+"@email.com");
@@ -289,5 +288,6 @@ public class Exercicio06 {
 		}
 
 	}
+
 
 }
