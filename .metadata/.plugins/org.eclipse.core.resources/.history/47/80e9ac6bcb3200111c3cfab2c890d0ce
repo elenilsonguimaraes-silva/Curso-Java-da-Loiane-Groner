@@ -1,0 +1,13 @@
+package com.elenilson.estruturasDeDadosJava.pilha;
+
+public class Pilha {
+	
+	public Pilha() {
+		super();
+	}
+	
+	public Pilha(int capacidade) {
+		super(capacidade);
+	}
+
+}

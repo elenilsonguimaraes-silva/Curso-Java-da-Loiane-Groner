@@ -1,0 +1,15 @@
+package com.elenilson.estruturasDeDadosJava.pilha;
+
+import com.elenilson.estruturasDeDadosJava.base.EstruturaEstatica;
+
+public class Pilha extends EstruturaEstatica<T> {
+	
+	public Pilha() {
+		super();
+	}
+	
+	public Pilha(int capacidade) {
+		super(capacidade);
+	}
+
+}
