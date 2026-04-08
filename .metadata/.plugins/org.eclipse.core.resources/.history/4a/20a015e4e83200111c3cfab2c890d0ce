@@ -1,0 +1,41 @@
+package com.elenilson.estruturasDeDadosJava.pilha.labs;
+
+import java.util.Scanner;
+
+import com.elenilson.estruturasDeDadosJava.pilha.Pilha;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+		
+		Pilha<Integer> pilha = new Pilha<Integer>();
+		
+		Scanner scan = new Scanner(System.in);
+		int numero;
+		
+		for(int i = 0; i < 10; i++) {
+			System.out.println("Digite o " + (i +1 ) + "º"+ " número:");
+			numero = scan.nextInt();
+			if(numero % 2 == 0) {
+				pilha.empilha(numero);
+			}else {
+				if(pilha.estaVazia()) {
+					System.out.println("Pilha Vazia");
+				}else {
+					System.out.println("O número " + pilha.desempilha() + " foi desempilhado!");
+				}
+			}
+		}
+		System.out.println();
+		if(!pilha.estaVazia()) {
+			numero = pilha.tamanho();
+			System.out.println("Desempilhando a pilha:");
+			for(int i  = 0; i < numero; i++) {
+				System.out.print(pilha.desempilha() + ", ");
+			}
+			
+		}
+
+	}
+
+}
