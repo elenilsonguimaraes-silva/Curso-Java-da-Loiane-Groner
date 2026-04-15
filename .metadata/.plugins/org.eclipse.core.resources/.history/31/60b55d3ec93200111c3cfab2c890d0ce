@@ -1,5 +1,0 @@
-package com.elenilson.estruturasDeDadosJava.base;
-
-public class EstruturaEstatica<T> {
-
-}

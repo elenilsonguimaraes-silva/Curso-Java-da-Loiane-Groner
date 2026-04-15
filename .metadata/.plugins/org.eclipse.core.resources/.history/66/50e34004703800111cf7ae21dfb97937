@@ -1,0 +1,74 @@
+package com.elenilson.estruturasDeDadosJava.pilha.labs;
+
+import com.elenilson.estruturasDeDadosJava.pilha.Pilha;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		Pilha<Character> pilha = new Pilha<Character>();
+		Pilha<Character> pilhaDireita = new Pilha<Character>();
+		Pilha<Character> pilhaEsquerda = new Pilha<Character>();
+		
+		//String palavra = "((A+B) ou A+B(";
+		String palavra = ")A+B(-C ou (A+B)) - (C + D";
+		//String palavra = "((A + B) + D)";
+		String palavra2 = "";
+		String desempilha = "";
+		boolean comparacao = false;
+		System.out.println("Regras:");
+		System.out.println("(1) Se o número de parênteses e à esquerda e à direita são iguais");
+		System.out.println("(2) Se todo parêntese aberto é seguido posteriormente por um fechamento de parêntese!");
+		System.out.println("A expresão a ser análisada é: " + palavra);
+		for(int i = 0; i < palavra.length(); i++) {
+			if(palavra.charAt(i) == '('){
+				pilhaDireita.empilha(palavra.charAt(i));
+				pilha.empilha(palavra.charAt(i));
+				
+			}
+			if(palavra.charAt(i) == ')'){		
+				palavra2 += palavra.charAt(i);
+				pilha.empilha(palavra.charAt(i));
+			}
+			
+		}
+		
+		palavra = "";
+		
+		while(!pilhaDireita.estaVazia()) {
+			
+			palavra += pilhaDireita.desempilha();
+			
+		}
+		while(!pilhaEsquerda.estaVazia()) {
+			palavra2  += pilhaEsquerda.desempilha();
+			
+		}
+		while(!pilha.estaVazia()) {
+			desempilha  += pilha.desempilha();
+			
+		}
+		int j = desempilha.length();
+		j--;
+		System.out.println("Pilha direita: " + palavra);
+		System.out.println("Pilha esquerda: " + palavra2);
+		System.out.println("Desempilha: " + desempilha);
+		if(palavra.length() == palavra2.length()) {
+			for(int i = 0; i < (palavra.length()); i++) {
+				if(desempilha.charAt(j) == '(' && desempilha.charAt(i) == ')') {
+					comparacao = true;
+				}else {
+					comparacao = false;
+					System.out.println("Violam a condição 2");
+					break;
+				}
+				j--;
+			}
+			if(comparacao) {
+				System.out.println("Está ok");
+			}
+		}else {
+			System.out.println("Violam a condiação 1!");
+		}
+		
+	}
+}

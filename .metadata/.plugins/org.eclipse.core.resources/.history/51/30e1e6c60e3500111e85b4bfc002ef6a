@@ -1,0 +1,62 @@
+package com.elenilson.estruturasDeDadosJava.pilha.labs;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+import com.elenilson.estruturasDeDadosJava.pilha.Pilha;
+
+public class Exercicio04 {
+	public static void main(String[] args) {
+		
+		Stack<Livro> stackLivros = new Stack<Livro>();
+		
+		Livro livro1 = new Livro();
+		livro1.setNome("Learning JavaScript Data Strtuctures and Algorithms - Second Edition");
+		livro1.setAutor("Loiane Groner");
+		livro1.setAnoLancamento(2016);
+		livro1.setIsbn("B01C2XX8Y2");
+		
+		
+		Livro livro2 = new Livro();
+		livro2.setNome("Learning JavaScript Data Strtuctures and Algorithms");
+		livro2.setAutor("Loiane Groner");
+		livro2.setAnoLancamento(2014);
+		livro2.setIsbn("B00OYTCT02");
+		
+		Livro livro3 = new Livro();
+		livro3.setNome("Mastering Ext JS- Second Edition|");
+		livro3.setAutor("Loiane Gronner");
+		livro3.setAnoLancamento(2015);
+		livro3.setIsbn("B00U01QQWU");
+		
+		Livro livro4 = new Livro();
+		livro4.setNome("JavaScript Regular Expressions");
+		livro4.setAutor("Loiane Gronner");
+		livro4.setAnoLancamento(2015);
+		livro4.setIsbn("B00YHBVHG0");
+		
+		System.out.println("Pilha de livros criada, pilha está vazia? " + stackLivros.isEmpty());
+		
+		System.out.println("Empilhando livros na pilha:");
+		
+		stackLivros.push(livro1);
+		stackLivros.push(livro2);
+		stackLivros.push(livro3);
+		stackLivros.push(livro4);
+		
+		System.out.println(stackLivros.size() + " Livros foram empilhados:");
+		System.out.println(stackLivros);
+		
+		System.out.println("Pilha de livros criada, pilha está vazia " + stackLivros.isEmpty());
+		
+		System.out.println("Espiando o topo da pilha " + stackLivros.peek());
+		
+		System.out.println("Desempilhando livros da pilha:");
+		
+		while(!stackLivros.isEmpty()) {
+			System.out.println("Desempilhando livro: " + stackLivros.pop());
+		}
+		System.out.println("Todos os livros foram desempilhados, pilha vazia: " + stackLivros.isEmpty());
+	}
+
+}

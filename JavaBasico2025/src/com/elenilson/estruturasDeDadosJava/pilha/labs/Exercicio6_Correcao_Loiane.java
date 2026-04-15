@@ -1,0 +1,10 @@
+package com.elenilson.estruturasDeDadosJava.pilha.labs;
+
+public class Exercicio6_Correcao_Loiane {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

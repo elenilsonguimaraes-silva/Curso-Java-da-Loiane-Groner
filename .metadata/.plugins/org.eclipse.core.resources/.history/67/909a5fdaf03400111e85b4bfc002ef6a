@@ -1,0 +1,47 @@
+package com.elenilson.estruturasDeDadosJava.pilha.labs;
+
+import java.util.Scanner;
+
+import com.elenilson.estruturasDeDadosJava.pilha.Pilha;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+
+		Pilha<Integer> pilhaPar = new Pilha<Integer>();
+		Pilha<Integer> pilhaImpar = new Pilha<Integer>();
+
+		Scanner scan = new Scanner(System.in);
+		int numero;
+
+		for(int i = 0; i < 10; i++) {
+			System.out.println("Digite o " + (i +1 ) + "º"+ " número:");
+			numero = scan.nextInt();
+			if(numero % 2 == 0 && numero != 0) {
+				System.out.println("Empilhando o número " + numero + " na pilha Par.");
+				pilhaPar.empilha(numero);
+			}else if(numero % 2 != 0){
+				System.out.println("Empilhando o número " + numero + " na pilha Ímpar.");
+				pilhaImpar.empilha(numero);
+			}else{
+				if(pilhaPar.estaVazia()) {
+					System.out.println("Pilha Par está vazia!");
+				}
+				if(pilhaImpar.estaVazia()) {
+					System.out.println("Pilha Ímpar está vazia!");
+				}
+				System.out.println("O número " + pilhaPar.desempilha() + " foi desempilhado!");
+				System.out.println("O número " + pilhaImpar.desempilha() + " foi desempilhado!");
+			}
+		}
+		System.out.println();
+		while(!(pilhaPar.estaVazia() || pilhaImpar.estaVazia())) {
+			System.out.print(pilhaPar.desempilha() + ", ");
+			if(pilhaPar.estaVazia()) {
+				System.out.print(pilhaImpar.desempilha() + ", ");
+			}
+		}
+
+	}
+
+}
