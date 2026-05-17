@@ -1,8 +1,0 @@
-package com.elenilson.estruturasDeDadosJava.pilha.labs;
-
-public class Livro {
-	private String nome;
-	private String isbn;
-	private String anoLancamento.
-	private String autor;
-}
