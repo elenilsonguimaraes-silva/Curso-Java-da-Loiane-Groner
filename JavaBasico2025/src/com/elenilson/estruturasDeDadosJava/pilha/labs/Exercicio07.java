@@ -14,15 +14,16 @@ public class Exercicio07 {
 
 		imprimeResultado(25);
 
-		imprimeResultado(1035);
+		imprimeResultado(10035);
 		
 		imprimeResultadoQualquerBase(25, 16);
 		
-		imprimeResultadoQualquerBase(10035, 8);
+		imprimeResultadoQualquerBase(10035, 9);
 		
 		imprimeResultadoQualquerBase(10035, 16);
 		
 		imprimeResultadoQualquerBase(28, 16);
+		imprimeResultadoQualquerBase(28, 17);
 	}
 
 	public static void imprimeResultado(int numero) {
@@ -30,7 +31,7 @@ public class Exercicio07 {
 	}
 	
 	public static void imprimeResultadoQualquerBase(int numero, int base) {
-		System.out.println(numero + " na base" + base + " é: " + decimalQualquerBase(numero, base));
+		System.out.println(numero + " na base " + base + " é: " + decimalQualquerBase(numero, base));
 	}
 
 	public static String decimalBinario(int numero) {
@@ -52,6 +53,10 @@ public class Exercicio07 {
 	}
 
 	public static String decimalQualquerBase(int numero, int base) {
+		
+		if(base > 16) {
+			throw new IllegalArgumentException();
+		}
 
 		Stack<Integer>  pilha = new Stack<>();
 		String numeroBase = "";

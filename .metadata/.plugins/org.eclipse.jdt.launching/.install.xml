@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
     <entry loc="C:\Users\guima\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412" stamp="1758328286358"/>
+    <entry loc="/usr/lib/jvm/java-26-openjdk" stamp="1779013200657"/>
+    <entry loc="/home/elenilson/Downloads/eclipse-jee-2026-03-R-linux-gtk-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.10.v20260205-0638/jre" stamp="1772704661811"/>
     <entry loc="C:\Program Files\Java\jdk1.8.0_202" stamp="1760062681340"/>
     <entry loc="C:\Program Files\Java\jdk-20" stamp="1756346636188"/>
     <entry loc="/usr/lib/jvm/temurin-17-jdk-amd64" stamp="1773676322392"/>
@@ -12,6 +14,7 @@
     <entry loc="/usr/lib/jvm/jdk-25.0.2-oracle-x64" stamp="1772589676020"/>
     <entry loc="/usr/lib/jvm/java-21-openjdk-amd64" stamp="1772623079343"/>
     <entry loc="C:\Users\guima\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412\jre" stamp="1758328286356"/>
+    <entry loc="/home/elenilson/Downloads/eclipse-jee-2026-03-R-linux-gtk-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.10.v20260205-0638" stamp="1772704661811"/>
     <entry loc="/home/elenilson/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.10.v20260205-0638" stamp="1772566014311"/>
     <entry loc="C:\Program Files\Java\jre1.8.0_471" stamp="1762073549834"/>
 </dirs>
