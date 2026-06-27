@@ -1,0 +1,21 @@
+package com.elenilson.estruturasDeDadosJava.fila.teste;
+
+import java.util.Queue;
+import java.util.concurrent.PriorityBlockingQueue;
+
+public class Aula25 {
+
+	public static void main(String[] args) {
+		
+		Queue<Paciente> filaComPrioridade = new  PriorityBlockingQueue<>();
+		
+		filaComPrioridade.add(new Paciente("A", 2));
+		filaComPrioridade.add(new Paciente("B", 1));
+		
+		System.out.println(filaComPrioridade);
+		
+		
+
+	}
+
+}
