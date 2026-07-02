@@ -36,7 +36,6 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojavaintermediario.aula71.MinhaThreadSoma"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.vetor.Vetor"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.vetor.VetorObjetos"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
@@ -53,11 +52,12 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.pilha.labs.Livro"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.base.EstruturaEstatica"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.fila.FilaComPrioridade"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.concurrent.PriorityBlockingQueue"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.lista.teste.ListaEncadeadaTeste"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>
