@@ -1,5 +1,7 @@
 package com.elenilson.estruturasDeDadosJava.lista.teste;
 
+import java.util.LinkedList;
+
 import com.elenilson.estruturasDeDadosJava.lista.ListaEncadeada;
 
 public class ListaEncadeadaTeste {
@@ -8,8 +10,11 @@ public class ListaEncadeadaTeste {
 		
 		//testesIniciais();
 		//adicionaInicio();
-		 adicionaPosicao();
-		
+		//adicionaPosicao();
+		//removeInicio();	
+		//removeFinal();
+		//removePosicao();
+		testeLinkedList();
 		
 	}
 	
@@ -64,7 +69,7 @@ public class ListaEncadeadaTeste {
 		//lista.adiciona(-1, 1);
 		lista.adiciona(1);
 		lista.adiciona(2);
-		lista.adiciona(4);
+		lista.adiciona(3);
 		//lista.adiciona(5, 0);
 		lista.adiciona(0, 0);
 		System.out.println(lista);
@@ -72,6 +77,84 @@ public class ListaEncadeadaTeste {
 		System.out.println(lista);
 		lista.adiciona(2, 3);
 		System.out.println(lista);
+	}
+	
+	public static void removeInicio() {
+		ListaEncadeada<Integer> lista = new ListaEncadeada<>();
+		//lista.removeInicio();
+		lista.adiciona(1);
+		lista.adiciona(2);
+		lista.adiciona(3);
+		
+		System.out.println("Lista " + lista);
+		System.out.println("Elemento removido " + lista.removeInicio());
+		System.out.println("Lista " + lista);
+		
+		System.out.println("Elemento removido " + lista.removeInicio());
+		System.out.println("Lista " + lista);
+		
+		System.out.println("Elemento removido " + lista.removeInicio());
+		System.out.println("Lista " + lista);
+		
+	}
+	
+	public static void removeFinal() {
+		ListaEncadeada<Integer> lista = new ListaEncadeada<>();
+		//lista.removeFinal();
+		lista.adiciona(1);
+		lista.adiciona(2);
+		lista.adiciona(3);
+		
+		System.out.println("Lista " + lista);
+		
+		System.out.println("Elemento removido " + lista.removeFinal());
+		System.out.println("Lista " + lista);
+		
+		System.out.println("Elemento removido " + lista.removeFinal());
+		System.out.println("Lista " + lista);System.out.println("Lista " + lista);
+		
+		System.out.println("Elemento removido " + lista.removeFinal());
+		System.out.println("Lista " + lista);
+		
+	}
+	
+	public static void removePosicao() {
+		ListaEncadeada<Integer> lista = new ListaEncadeada<>();
+		lista.adiciona(1);
+		lista.adiciona(2);
+		lista.adiciona(3);
+		lista.adiciona(4);
+		lista.adiciona(5);
+		
+		System.out.println("Lista " + lista);		
+		System.out.println("Elemento removido " + lista.remove( 5 ));
+		System.out.println("Lista " + lista);
+
+	}
+	
+	public static void testeLinkedList() {
+		LinkedList<Integer> lista = new LinkedList<Integer>();
+		lista.add(1);
+		lista.addFirst(0);
+		lista.addLast(3);
+		System.out.println("O elemento 2 existe? " + lista.contains(2));
+		System.out.println("O elemento 1 existe? " + lista.contains(1));
+		
+		lista.add(2, 2);
+		lista.add(4);
+		lista.add(5);
+		System.out.println("Lista " + lista);
+		
+		System.out.println("Elemento removido " + lista.remove( 0 ));
+		System.out.println("Elemento removido " + lista.remove( 0 ));
+		System.out.println("Elemento removido " + lista.removeFirst( ));
+		System.out.println("Lista " + lista);
+		System.out.println("Elemento removido " + lista.removeLast( ));
+		System.out.println("Lista " + lista);
+		System.out.println("Elemento removido " + lista.removeAll(lista));		
+		System.out.println("Lista " + lista);
+		
+		
 	}
 
 }

@@ -1,26 +1,26 @@
 package com.elenilson.estruturasDeDadosJava.lista;
 
 public class No<T> {
-	private T elmento;
+	private T elemento;
 	private No<T> proximo;
 	
-	public No(T elmento) {
+	public No(T elemento) {
 		super();
-		this.elmento = elmento;
+		this.elemento = elemento;
 		this.proximo = null;
 	}
 	
-	public No(T elmento, No<T> proximo) {
+	public No(T elemento, No<T> proximo) {
 		super();
-		this.elmento = elmento;
+		this.elemento = elemento;
 		this.proximo = proximo;
 	}
 	
-	public T getElmento() {
-		return elmento;
+	public T getElemento() {
+		return elemento;
 	}
-	public void setElmento(T elmento) {
-		this.elmento = elmento;
+	public void setElemento(T elemento) {
+		this.elemento = elemento;
 	}
 	public No<T> getProximo() {
 		return proximo;
@@ -31,7 +31,7 @@ public class No<T> {
 
 	@Override
 	public String toString() {
-		return "No [elmento=" + elmento + ", proximo=" + proximo + "]";
+		return "No [elmento=" + elemento + ", proximo=" + proximo + "]";
 	}
 	
 	
