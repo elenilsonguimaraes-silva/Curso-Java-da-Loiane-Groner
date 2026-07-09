@@ -18,7 +18,46 @@ public class ListaEncadeada<T> {
 		this.ultimo = celula;
 		this.tamanho++;
 	}
-
+	
+	public void adicionaInicio(T elemento) {
+		if(this.tamanho == 0) {
+			No<T> novoNo = new No<>(elemento);
+			this.inicio = novoNo;
+			this.ultimo = novoNo;
+			
+		}else {
+			//Umas das maneiras de criar o nó
+			//No<T> novoNo = new No<>(elemento);
+			//novoNo.setProximo(this.inicio);
+			//Outra maneira de criar o nó, já com o inicio no construtor
+			No<T> novoNo = new No<>(elemento, this.inicio);					
+			this.inicio= novoNo;// linha de código usada nas duas maneira de criação desse nó nesse escopo!
+		}
+		this.tamanho++;
+	}
+	
+	public void adiciona(int posicao, T elemento){		
+		
+		if(posicao < 0 || posicao > this.tamanho) {
+			throw new IllegalArgumentException("Posição  Inválida!");
+		}
+		
+		if(posicao == 0) { //está vazia
+			this.adicionaInicio(elemento);
+		}else if( posicao == this.tamanho) { // adiciona
+			this.adiciona(elemento);
+		}else { // Meio
+			No<T> noAnterior = this.buscarNo(posicao);
+			No<T> proximoNo = noAnterior.getProximo();
+			No<T> novoNo = new No<>(elemento, proximoNo);
+			noAnterior.setProximo(novoNo);
+			this.tamanho++;
+			
+			
+		}
+		
+	}
+	
 	public int getTamanho() {
 		return tamanho;
 	}

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46labs.DimensaoSuperficial"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula46labs.Figura2D"/>
     <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="com.elenilson.cursojava.aula52.DivisaoNaoExata"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.lista.teste.ListaEncadeadaTeste"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.elenilson.estruturasDeDadosJava.lista.ListaEncadeada"/>
 </qualifiedTypeNameHistroy>
